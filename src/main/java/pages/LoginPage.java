@@ -58,6 +58,7 @@ public class LoginPage
 		ActionUtil.type(username, user);
 		ActionUtil.type(password, pass);
 		ActionUtil.click(loginBtn);
+		//thank You
 	}
 	
 }
