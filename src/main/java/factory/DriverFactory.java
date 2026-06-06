@@ -24,7 +24,8 @@ public class DriverFactory
 		else if(browser.equalsIgnoreCase("edge"))
 		{
 			WebDriverManager.edgedriver().setup();
-			return new EdgeDriver() ;
+			return new EdgeDriver();
+			//Thank you
 		}
 		
 		else
